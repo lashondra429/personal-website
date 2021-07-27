@@ -9,32 +9,25 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="shortcut icon" href="./assets/icons/woman.png" type="image/x-icon">
+
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+
     <title>LaShondra Schwab</title>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body>
     <div id="header">
-        <div class="logo">
-            <h1><a href="./index.html">LaShondra Schwab</a></h1>
-        </div>
-        <div class="nav">
-            <ul>
-                <li>
-                    <a href="./about.html">About me</a>
-                </li>
-                <li>
-                    <a href="./resume.html">Resume</a>
-                </li>
-                <li>
-                    <a href="./activities.html">Activities</a>
-                </li>
-                <li>
-                    <a href="./contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
     </div>
     <div id="main">
         <div class="container">
@@ -105,32 +98,6 @@
 
     </div>
     <div id="footer">
-        <div class="footer-wrapper">
-            <div class="mail">
-                <h3>Write</h3>
-                <a href="mailto:lashondra.r.schwab@gmail.com">lashondra.r.schwab@gmail.com</a>
-            </div>
-            <div class="social">
-                <h3>Follow</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/lashondraschwab/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/429schwab/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/lashondra429/" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </div>
 </body>
 

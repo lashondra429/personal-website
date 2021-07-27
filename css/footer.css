@@ -1,0 +1,44 @@
+#footer {
+    padding: 10px 30px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.footer-wrapper {
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-wrapper .social {
+    width: 20%;
+    text-align: center;
+}
+
+.mail {
+    text-align: center;
+}
+
+.footer-wrapper .social ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        text-align: center;
+    }
+
+    .footer-wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-wrapper .social {
+        width: 100%;
+    }
+}
