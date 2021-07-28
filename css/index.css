@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+#home a {
+    color: rgb(0, 80, 255) !important;
+}
+
 #main section {
     display: flex;
     height: 100%;

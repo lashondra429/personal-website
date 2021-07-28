@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+#main {
+    background: rgb(230, 218, 206);
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+#resume a {
+    color: rgb(0, 80, 255) !important;
+}
+
+.container {
+    width: 740px;
+    margin: auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+#main .title {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.white-card {
+    box-shadow: rgba(138, 131, 124, 0.23) -11.31px 11.31px 17px 0px;
+    display: flex;
+    background: white;
+    padding: 80px 35px 45px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.white-card .col-3 {
+    width: fit-content;
+    min-width: 300px;
+}
+
+.white-card .col-3 .duration {
+    color: rgb(0, 80, 255);
+}
+
+.white-card .col-3 .designation {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.white-card .col-3 .location {
+    font-size: 14px;
+}
+
+.white-card .col-6 {
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.white-card .col-6 ul{
+    list-style: square;
+}
+
+.white-card .col-6 li {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .white-card {
+        display: block;
+    }
+    .white-card .col-3 {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .white-card .col-6 li {
+        text-align: left;
+    }
+}
