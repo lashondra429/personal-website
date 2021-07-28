@@ -73,6 +73,32 @@ body {
     margin-bottom: 5px;
 }
 
+.d-block {
+    display: block !important;
+}
+
+.white-card .card-section {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.item {
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.item .marker {
+    width: 13px;
+    height: 13px;
+    background-color: rgb(0, 80, 255);
+    margin-right: 15px;
+}
+
 @media only screen and (max-width: 600px) {
     .container {
         width: 100%;
@@ -89,5 +115,10 @@ body {
 
     .white-card .col-6 li {
         text-align: left;
+    }
+
+    
+    .white-card .card-section {
+        display: block;
     }
 }
