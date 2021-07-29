@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+#main {
+    background: rgb(230, 218, 206);
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+#contact a {
+    color: rgb(0, 80, 255) !important;
+}
+
+.container {
+    width: 740px;
+    margin: auto;
+}
+
+#main .title {
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+
+.form-wrapper {
+    background: white;
+    padding: 40px 40px 90px;
+}
+
+.form-wrapper form {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.row .col-2 {
+    text-align: left;
+    width: 45%;
+}
+
+.row .label {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.row .label span {
+    color: rgb(0, 80, 255);
+}
+
+.row input, textarea{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 10px 20px;
+    outline: none;
+    color: rgb(0, 80, 255);
+}
+
+.row input:hover, textarea:hover, input:focus, textarea:focus {
+    border-bottom-color: rgb(0, 80, 255);
+    color: rgb(0, 80, 255);
+}
+
+
+.row .col-1 {
+    text-align: left;
+    width: 100%;
+}
+
+.row:last-child {
+    margin-bottom: 15px;
+}
+
+.submit {
+    text-align: left;
+}
+
+.submit input {
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(0, 80, 255);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row .col-2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="shortcut icon" href="./assets/icons/woman.png" type="image/x-icon">
+
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+
+    <title>LaShondra Schwab</title>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="main">
+        <div class="container">
+            <h2 class="title">Let's talk</h2>
+            <div class="form-wrapper">
+                <form>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="label text-left">
+                                <label for="first-name">First Name <span>*</span></label>
+                            </div>
+                            <div class="input-col-2">
+                                <input type="text" class="text-left" name="fname" id="first-name" required>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="label text-left">
+                                <label for="first-name">Last Name <span>*</span></label>
+                            </div>
+                            <div class="input-col-2">
+                                <input type="text" class="text-left" name="lname" id="last-name" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="label text-left">
+                                <label for="email">Email <span>*</span></label>
+                            </div>
+                            <div class="input-col-1">
+                                <input type="email" class="text-left" name="email" id="email" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="label text-left">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="input-col-1">
+                                <input type="text" class="text-left" name="subject" id="subject">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <div class="label text-left">
+                                <label for="message">Message</label>
+                            </div>
+                            <div class="input-col-1">
+                                <textarea name="message" class="text-left" id="message" style="resize: none;"
+                                    rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
