@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+#main {
+    background: rgb(230, 218, 206);
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+#quotes a {
+    color: rgb(0, 80, 255) !important;
+}
